@@ -8,7 +8,7 @@ def another():
 
     print(count)
     def greeting(name):
-        nonlocal color
+        nonlocal color # Use variable from parent function
         color = "red"
         print(color)
         print(name)
